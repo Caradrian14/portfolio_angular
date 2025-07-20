@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavComponent } from './components/nav/nav.component';
+import { LandingComponent } from './components/landing/landing.component';
+import { from } from 'rxjs';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NavComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'portfolio_angular';
+  protected title = 'Portfolio Adria Jorda';
 }

@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './expirience.component.html',
   styleUrls: ['./expirience.component.css']
 })
-export class NavComponent {}
+export class ExpirienceComponent {}

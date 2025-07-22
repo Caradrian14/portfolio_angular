@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-skill',
-  templateUrl: './skill.component.html',
-  styleUrls: ['./skill.component.css']
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
 export class NavComponent {}

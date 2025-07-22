@@ -7,18 +7,19 @@ import { ExpirienceComponent } from './components/expirience/expirience.componen
 import { EducationComponent } from './components/education/education.component';
 import { ProjectComponent } from './components/projects/project.component';
 import { from } from 'rxjs';
+import { AboutComponent } from "./components/about/about.component";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, 
-            NavComponent, 
-            ContactComponent ,
-            LandingComponent,
-            ExpirienceComponent,
-            EducationComponent,
-            ProjectComponent,  
-          ],
+  imports: [RouterOutlet,
+    NavComponent,
+    ContactComponent,
+    LandingComponent,
+    ExpirienceComponent,
+    EducationComponent,
+    ProjectComponent, 
+    AboutComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

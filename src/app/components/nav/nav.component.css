@@ -2,6 +2,77 @@
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
+.navbar{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex !important
+;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 
 .navbar-b {
     transition: all .5s ease-in-out;
@@ -206,6 +277,13 @@
     right: 0;
     left: 0;
     z-index: 1030;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,30 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+}

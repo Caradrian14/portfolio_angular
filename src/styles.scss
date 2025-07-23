@@ -1,36 +1,36 @@
 // Importación de archivos SCSS
-@import '../lib/scss/alert';
-@import '../lib/scss/badge';
-@import '../lib/scss/breadcrumb';
-@import '../lib/scss/button-group';
-@import '../lib/scss/buttons';
-@import '../lib/scss/card';
-@import '../lib/scss/carousel';
-@import '../lib/scss/close';
-@import '../lib/scss/code';
-@import '../lib/scss/custom-forms';
-@import '../lib/scss/dropdown';
-@import '../lib/scss/forms';
-@import '../lib/scss/grid';
-@import '../lib/scss/images';
-@import '../lib/scss/input-group';
-@import '../lib/scss/jumbotron';
-@import '../lib/scss/list-group';
-@import '../lib/scss/media';
-@import '../lib/scss/modal';
-@import '../lib/scss/nav';
-@import '../lib/scss/navbar';
-@import '../lib/scss/pagination';
-@import '../lib/scss/popover';
-@import '../lib/scss/print';
-@import '../lib/scss/progress';
-@import '../lib/scss/reboot';
-@import '../lib/scss/root';
-@import '../lib/scss/tables';
-@import '../lib/scss/tooltip';
-@import '../lib/scss/transitions';
-@import '../lib/scss/type';
-@import '../lib/scss/bootstrap';
+// @import '../lib/scss/alert';
+// @import '../lib/scss/badge';
+// @import '../lib/scss/breadcrumb';
+// @import '../lib/scss/button-group';
+// @import '../lib/scss/buttons';
+// @import '../lib/scss/card';
+// @import '../lib/scss/carousel';
+// @import '../lib/scss/close';
+// @import '../lib/scss/code';
+// @import '../lib/scss/custom-forms';
+// @import '../lib/scss/dropdown';
+// @import '../lib/scss/forms';
+// @import '../lib/scss/grid';
+// @import '../lib/scss/images';
+// @import '../lib/scss/input-group';
+// @import '../lib/scss/jumbotron';
+// @import '../lib/scss/list-group';
+// @import '../lib/scss/media';
+// @import '../lib/scss/modal';
+// @import '../lib/scss/nav';
+// @import '../lib/scss/navbar';
+// @import '../lib/scss/pagination';
+// @import '../lib/scss/popover';
+// @import '../lib/scss/print';
+// @import '../lib/scss/progress';
+// @import '../lib/scss/reboot';
+// @import '../lib/scss/root';
+// @import '../lib/scss/tables';
+// @import '../lib/scss/tooltip';
+// @import '../lib/scss/transitions';
+// @import '../lib/scss/type';
+// @import '../lib/scss/bootstrap';
 
 body    {
     background-color: red;
@@ -56,6 +56,17 @@ h4,
 h5,
 h6 {
     color: rgb(23, 162, 8);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
 a {

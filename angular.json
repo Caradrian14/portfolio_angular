@@ -93,8 +93,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "lib/scss/main.scss"
+              "src/styles.scss"
             ]
           }
         }

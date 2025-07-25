@@ -1,28 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavComponent } from './components/nav/nav.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { ExpirienceComponent } from './components/expirience/expirience.component';
-import { EducationComponent } from './components/education/education.component';
-import { ProjectComponent } from './components/projects/project.component';
-import { from } from 'rxjs';
-import { AboutComponent } from "./components/about/about.component";
+import { Nav } from './nav/nav';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,
-    NavComponent,
-    ContactComponent,
-    LandingComponent,
-    ExpirienceComponent,
-    EducationComponent,
-    ProjectComponent, 
-    AboutComponent],
+  imports: [RouterOutlet, Nav],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'Portfolio Adria Jorda';
+  protected readonly title = signal('portfolio_angular_test');
 }

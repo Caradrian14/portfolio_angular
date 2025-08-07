@@ -30,7 +30,13 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/app/style/navbar.scss",
+              "src/app/style/position.scss",
+              "src/app/style/reboot.scss",
+              "src/app/style/flex.scss",
+              "src/app/style/transition.scss",
+              "src/app/style/nav.scss"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",

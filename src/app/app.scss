@@ -1,3 +1,62 @@
+body {
+    background-color: #333333;
+    color: #4e4e4e;
+}
+
 nav {
     background-color: red;
+}
+
+a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-b .navbar-brand {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-content {
+    text-align: center;
+    position: absolute;
+}
+
+.intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: white;
+    position: relative;
+}   
+
+.navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-b.navbar-trans .show>.nav-link, .navbar-b.navbar-trans .active>.nav-link, .navbar-b.navbar-trans .nav-link.show, .navbar-b.navbar-trans .nav-link.active {
+    color: rgb(84, 214, 57);
+}
+
+.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+        padding-left: 10px;
+    }
 }

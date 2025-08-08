@@ -65,6 +65,13 @@
 }
 
 @media (min-width: 768px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem;

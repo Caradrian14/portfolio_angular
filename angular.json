@@ -34,6 +34,7 @@
               "src/app/style/navbar.scss",
               "src/app/style/position.scss",
               "src/app/style/reboot.scss",
+              "src/app/style/grid.scss",
               "src/app/style/flex.scss",
               "src/app/style/transition.scss",
               "src/app/style/nav.scss"

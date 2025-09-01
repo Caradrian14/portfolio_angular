@@ -29,3 +29,12 @@
         max-width: 1140px;
     }
 }
+
+
+@media (min-width: 576px) {
+    .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

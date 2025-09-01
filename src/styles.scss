@@ -35,6 +35,18 @@ a {
     font-weight: 600;
 }
 
+.sect-pt4 {
+    padding-top: 4rem;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .table-cell {
     display: table-cell;
     vertical-align: middle;

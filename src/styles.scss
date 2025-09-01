@@ -3,6 +3,10 @@ body {
     color: #4e4e4e;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(23, 162, 8);
+}
+
 nav {
     background-color: red;
 }
@@ -140,6 +144,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     float: right;
 }
 // ############
+
+.title-left {
+    font-size: 2rem;
+    position: relative;
+}
 
 .skill-mf .progress {
     background-color: #cde1f8;

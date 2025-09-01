@@ -37,7 +37,9 @@
               "src/app/style/grid.scss",
               "src/app/style/flex.scss",
               "src/app/style/transition.scss",
-              "src/app/style/nav.scss"
+              "src/app/style/nav.scss",
+              "src/app/style/borders.scss",
+              "src/app/style/imatge.scss"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",

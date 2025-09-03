@@ -40,7 +40,8 @@
               "src/app/style/nav.scss",
               "src/app/style/borders.scss",
               "src/app/style/imatge.scss",
-              "src/app/style/spacing.scss"
+              "src/app/style/spacing.scss",
+              "src/app/style/grid-framework.scss"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
